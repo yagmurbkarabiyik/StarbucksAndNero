@@ -9,10 +9,10 @@ public class Main {
 		Customer customer1 = new Customer();
 		
 		customer1.setId(1);
-		customer1.setFirstName("Yağmur Buse");
-		customer1.setLastName("Karabıyık");
+		customer1.setFirstName("YaÃ°mur Buse");
+		customer1.setLastName("KarabÃ½yÃ½k");
 		customer1.setDateOfBirth(2001);
-		customer1.setNationaltyId("56638231880");
+		customer1.setNationaltyId("12345678911");
 		
 		BaseCustomerManager baseCustomerManager = new StarbucksCustomerManager(new MernisServiceAdapters());
 		baseCustomerManager.save(customer1);
